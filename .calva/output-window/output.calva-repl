@@ -1,0 +1,725 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.25.11"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉playing-cards.core꞉> 
+; Jack-in done.
+clj꞉playing-cards.core꞉> 
+2 of CLUBS, KING of DIAMONDS, 3 of HEARTS, 2 of HEARTS, 4 of HEARTS, KING of SPADES, 3 of SPADES, ACE of DIAMONDS, 3 of CLUBS, 7 of SPADES, JACK of HEARTS, 1 of CLUBS, 4 of CLUBS, 5 of SPADES, 7 of HEARTS, 8 of SPADES, KING of CLUBS, 8 of CLUBS, 2 of DIAMONDS, 2 of SPADES, 6 of HEARTS, 1 of HEARTS, 5 of HEARTS, JACK of SPADES, JACK of CLUBS, 9 of DIAMONDS, 8 of DIAMONDS, 8 of HEARTS, KING of HEARTS, 4 of SPADES, QUEEN of SPADES, ACE of SPADES, 6 of CLUBS, 5 of CLUBS, 9 of SPADES, 9 of CLUBS, 6 of SPADES, QUEEN of DIAMONDS, 3 of DIAMONDS, 4 of DIAMONDS, 6 of DIAMONDS, 1 of DIAMONDS
+nil
+clj꞉playing-cards.core꞉> 
+#'playing-cards.core/deck-of-cards
+clj꞉playing-cards.core꞉> 
+("KING of CLUBS"
+ "QUEEN of CLUBS"
+ "JACK of CLUBS"
+ "9 of CLUBS"
+ "8 of CLUBS"
+ "7 of CLUBS"
+ "6 of CLUBS"
+ "5 of CLUBS"
+ "4 of CLUBS"
+ "3 of CLUBS"
+ "2 of CLUBS"
+ "1 of CLUBS"
+ "ACE of CLUBS"
+ "KING of DIAMONDS"
+ "QUEEN of DIAMONDS"
+ "JACK of DIAMONDS"
+ "9 of DIAMONDS"
+ "8 of DIAMONDS"
+ "7 of DIAMONDS"
+ "6 of DIAMONDS"
+ "5 of DIAMONDS"
+ "4 of DIAMONDS"
+ "3 of DIAMONDS"
+ "2 of DIAMONDS"
+ "1 of DIAMONDS"
+ "ACE of DIAMONDS"
+ "KING of HEARTS"
+ "QUEEN of HEARTS"
+ "JACK of HEARTS"
+ "9 of HEARTS"
+ "8 of HEARTS"
+ "7 of HEARTS"
+ "6 of HEARTS"
+ "5 of HEARTS"
+ "4 of HEARTS"
+ "3 of HEARTS"
+ "2 of HEARTS"
+ "1 of HEARTS"
+ "ACE of HEARTS"
+ "KING of SPADES"
+ "QUEEN of SPADES"
+ "JACK of SPADES"
+ "9 of SPADES"
+ "8 of SPADES"
+ "7 of SPADES"
+ "6 of SPADES"
+ "5 of SPADES"
+ "4 of SPADES"
+ "3 of SPADES"
+ "2 of SPADES"
+ ...)
+clj꞉playing-cards.core꞉> 
+#'playing-cards.core/pick-10
+clj꞉playing-cards.core꞉> 
+; Error printing return value (ArityException) at clojure.lang.AFn/throwArity (AFn.java:429).
+; Wrong number of args (1) passed to: playing-cards.core/pick-cards
+clj꞉playing-cards.core꞉> 
+9 of HEARTS, 2 of CLUBS, KING of DIAMONDS, 3 of HEARTS, 4 of HEARTS, KING of SPADES, 3 of SPADES, ACE of DIAMONDS, 3 of CLUBS, JACK of HEARTS, 1 of CLUBS, 4 of CLUBS, 5 of SPADES, 7 of HEARTS, ACE of HEARTS, 8 of SPADES, KING of CLUBS, JACK of DIAMONDS, 8 of CLUBS, 2 of DIAMONDS, 2 of SPADES, 6 of HEARTS, 1 of HEARTS, 5 of HEARTS, JACK of SPADES, JACK of CLUBS, 9 of DIAMONDS, 8 of DIAMONDS, KING of HEARTS, ACE of CLUBS, 4 of SPADES, QUEEN of SPADES, ACE of SPADES, 6 of CLUBS, 5 of CLUBS, 9 of SPADES, QUEEN of HEARTS, 6 of SPADES, QUEEN of DIAMONDS, 3 of DIAMONDS, 4 of DIAMONDS, 6 of DIAMONDS
+nil
+clj꞉playing-cards.core꞉> 
+#'playing-cards.core/rest-of-deck
+clj꞉playing-cards.core꞉> 
+Rest of deck:
+nil
+clj꞉playing-cards.core꞉> 
+9 of HEARTS, 2 of CLUBS, KING of DIAMONDS, 3 of HEARTS, 4 of HEARTS, KING of SPADES, 3 of SPADES, ACE of DIAMONDS, 3 of CLUBS, JACK of HEARTS, 1 of CLUBS, 4 of CLUBS, 5 of SPADES, 7 of HEARTS, ACE of HEARTS, 8 of SPADES, KING of CLUBS, JACK of DIAMONDS, 8 of CLUBS, 2 of DIAMONDS, 2 of SPADES, 6 of HEARTS, 1 of HEARTS, 5 of HEARTS, JACK of SPADES, JACK of CLUBS, 9 of DIAMONDS, 8 of DIAMONDS, KING of HEARTS, ACE of CLUBS, 4 of SPADES, QUEEN of SPADES, ACE of SPADES, 6 of CLUBS, 5 of CLUBS, 9 of SPADES, QUEEN of HEARTS, 6 of SPADES, QUEEN of DIAMONDS, 3 of DIAMONDS, 4 of DIAMONDS, 6 of DIAMONDS
+nil
+clj꞉playing-cards.core꞉> 
+; Syntax error compiling at (core.clj:6:18).
+; No such namespace: io
+clj꞉playing-cards.core꞉> 
+nil
+clj꞉playing-cards.core꞉> 
+()
+clj꞉playing-cards.core꞉> 
+()
+clj꞉playing-cards.core꞉> 
+; Evaluating file: core.clj
+Selected:
+7 of SPADES, 7 of HEARTS, 1 of SPADES, ACE of CLUBS, 4 of SPADES, 2 of HEARTS, 9 of CLUBS, 5 of DIAMONDS, 1 of CLUBS, ACE of HEARTS
+Rest of deck:
+9 of HEARTS, 2 of CLUBS, KING of DIAMONDS, 3 of HEARTS, 4 of HEARTS, KING of SPADES, 3 of SPADES, ACE of DIAMONDS, 3 of CLUBS, JACK of HEARTS, 4 of CLUBS, 5 of SPADES, 8 of SPADES, KING of CLUBS, JACK of DIAMONDS, 8 of CLUBS, 2 of DIAMONDS, 2 of SPADES, 6 of HEARTS, 1 of HEARTS, 5 of HEARTS, JACK of SPADES, QUEEN of CLUBS, JACK of CLUBS, 9 of DIAMONDS, 8 of DIAMONDS, 7 of DIAMONDS, 8 of HEARTS, KING of HEARTS, 7 of CLUBS, QUEEN of SPADES, ACE of SPADES, 6 of CLUBS, 5 of CLUBS, 9 of SPADES, QUEEN of HEARTS, 6 of SPADES, QUEEN of DIAMONDS, 3 of DIAMONDS, 4 of DIAMONDS, 6 of DIAMONDS, 1 of DIAMONDS
+((4 :HR) (0 :DI) (2 :CL) (7 :SP) (10 :CL) (12 :DI) (5 :SP) (2 :SP) (9 :SP) (1 :DI))((8 :HR) (11 :CL) (2 :HR) (4 :SP) (7 :CL) (0 :CL) (11 :HR) (1 :SP) (7 :HR) (0 :SP))
+(nil nil nil)
+clj꞉playing-cards.core꞉> 
+(["8 HR" "11 CL" "2 HR" "4 SP" "7 CL" "0 CL" "11 HR" "1 SP" "7 HR" "0 SP"]
+ ["4 HR" "0 DI" "2 CL" "7 SP" "10 CL" "12 DI" "5 SP" "2 SP" "9 SP" "1 DI"]
+ ["12 SP" "5 CL" "10 SP" "9 HR" "6 SP" "1 CL" "3 SP" "12 CL" "6 CL" "6 DI"])
+clj꞉playing-cards.core꞉> 
+; Syntax error compiling at (core.clj:19:1).
+; Unable to resolve symbol: split in this context
+clj꞉playing-cards.core꞉> 
+["2" "CL"]
+clj꞉playing-cards.core꞉> 
+; Syntax error compiling at (core.clj:7:36).
+; Unable to resolve symbol: split in this context
+clj꞉playing-cards.core꞉> 
+; Execution error (ArityException) at playing-cards.core/eval7598 (form-init286738988491637976.clj:6).
+; Wrong number of args (1) passed to: playing-cards.core/eval7598/fn--7599
+clj꞉playing-cards.core꞉> 
+((["6" "DI"] ["6" "CL"] ["12" "CL"] ["3" "SP"] ["1" "CL"] ["6" "SP"] ["9" "HR"] ["10" "SP"] ["5" "CL"] ["12" "SP"])
+ (["1" "DI"] ["9" "SP"] ["2" "SP"] ["5" "SP"] ["12" "DI"] ["10" "CL"] ["7" "SP"] ["2" "CL"] ["0" "DI"] ["4" "HR"])
+ (["0" "SP"] ["7" "HR"] ["1" "SP"] ["11" "HR"] ["0" "CL"] ["7" "CL"] ["4" "SP"] ["2" "HR"] ["11" "CL"] ["8" "HR"]))
+clj꞉playing-cards.core꞉> 
+((("DI" "6") ("CL" "6") ("CL" "12") ("SP" "3") ("CL" "1") ("SP" "6") ("HR" "9") ("SP" "10") ("CL" "5") ("SP" "12"))
+ (("DI" "1") ("SP" "9") ("SP" "2") ("SP" "5") ("DI" "12") ("CL" "10") ("SP" "7") ("CL" "2") ("DI" "0") ("HR" "4"))
+ (("SP" "0") ("HR" "7") ("SP" "1") ("HR" "11") ("CL" "0") ("CL" "7") ("SP" "4") ("HR" "2") ("CL" "11") ("HR" "8")))
+clj꞉playing-cards.core꞉> 
+; Execution error (ArityException) at playing-cards.core/eval7673$fn$fn (form-init286738988491637976.clj:7).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉playing-cards.core꞉> 
+((("6" :DI) ("6" :CL) ("12" :CL) ("3" :SP) ("1" :CL) ("6" :SP) ("9" :HR) ("10" :SP) ("5" :CL) ("12" :SP))
+ (("1" :DI) ("9" :SP) ("2" :SP) ("5" :SP) ("12" :DI) ("10" :CL) ("7" :SP) ("2" :CL) ("0" :DI) ("4" :HR))
+ (("0" :SP) ("7" :HR) ("1" :SP) ("11" :HR) ("0" :CL) ("7" :CL) ("4" :SP) ("2" :HR) ("11" :CL) ("8" :HR)))
+clj꞉playing-cards.core꞉> 
+; Execution error (ClassCastException) at playing-cards.core/eval7696$fn$fn (form-init286738988491637976.clj:8).
+; java.lang.String cannot be cast to java.lang.Character
+clj꞉playing-cards.core꞉> 
+(((6 :DI) (6 :CL) (12 :CL) (3 :SP) (1 :CL) (6 :SP) (9 :HR) (10 :SP) (5 :CL) (12 :SP))
+ ((1 :DI) (9 :SP) (2 :SP) (5 :SP) (12 :DI) (10 :CL) (7 :SP) (2 :CL) (0 :DI) (4 :HR))
+ ((0 :SP) (7 :HR) (1 :SP) (11 :HR) (0 :CL) (7 :CL) (4 :SP) (2 :HR) (11 :CL) (8 :HR)))
+clj꞉playing-cards.core꞉> 
+; Evaluating file: core.clj
+Selected:
+7 of SPADES, 7 of HEARTS, 1 of DIAMONDS, 1 of SPADES, QUEEN of HEARTS, ACE of CLUBS, 7 of CLUBS, 4 of SPADES, 9 of CLUBS, QUEEN of CLUBS
+Rest of deck:
+9 of HEARTS, 2 of CLUBS, KING of DIAMONDS, 3 of HEARTS, 2 of HEARTS, 5 of DIAMONDS, 4 of HEARTS, KING of SPADES, 3 of SPADES, ACE of DIAMONDS, 3 of CLUBS, JACK of HEARTS, 1 of CLUBS, 4 of CLUBS, 5 of SPADES, ACE of HEARTS, 8 of SPADES, KING of CLUBS, JACK of DIAMONDS, 8 of CLUBS, 2 of DIAMONDS, 2 of SPADES, 6 of HEARTS, 1 of HEARTS, 5 of HEARTS, JACK of SPADES, JACK of CLUBS, 9 of DIAMONDS, 8 of DIAMONDS, 7 of DIAMONDS, 8 of HEARTS, KING of HEARTS, QUEEN of SPADES, ACE of SPADES, 6 of CLUBS, 5 of CLUBS, 9 of SPADES, 6 of SPADES, QUEEN of DIAMONDS, 3 of DIAMONDS, 4 of DIAMONDS, 6 of DIAMONDS
+((4 :HR) (3 :CL) (6 :HR) (8 :DI) (6 :SP) (8 :CL) (4 :DI) (1 :HR) (9 :SP) (1 :DI))((1 :CL) (6 :DI) (8 :HR) (11 :CL) (2 :HR) (4 :SP) (7 :CL) (0 :CL) (7 :HR) (7 :SP))
+(nil nil nil)
+clj꞉playing-cards.core꞉> 
+((7 :SP) of  (1 :DI) of  (0 :HR) of )
+nil
+clj꞉playing-cards.core꞉> 
+((3 of HEARTS KING of DIAMONDS 4 of CLUBS JACK of SPADES 9 of HEARTS 5 of SPADES 2 of SPADES 5 of CLUBS 5 of DIAMONDS ACE of HEARTS) (4 of HEARTS 3 of CLUBS 6 of HEARTS 8 of DIAMONDS 6 of SPADES 8 of CLUBS 4 of DIAMONDS 1 of HEARTS 9 of SPADES 1 of DIAMONDS) (1 of CLUBS 6 of DIAMONDS 8 of HEARTS QUEEN of CLUBS 2 of HEARTS 4 of SPADES 7 of CLUBS ACE of CLUBS 7 of HEARTS 7 of SPADES))
+nil
+clj꞉playing-cards.core꞉> 
+("3 of HEARTS" "KING of DIAMONDS" "4 of CLUBS" "JACK of SPADES" "9 of HEARTS" "5 of SPADES" "2 of SPADES" "5 of CLUBS" "5 of DIAMONDS" "ACE of HEARTS"), ("4 of HEARTS" "3 of CLUBS" "6 of HEARTS" "8 of DIAMONDS" "6 of SPADES" "8 of CLUBS" "4 of DIAMONDS" "1 of HEARTS" "9 of SPADES" "1 of DIAMONDS"), ("1 of CLUBS" "6 of DIAMONDS" "8 of HEARTS" "QUEEN of CLUBS" "2 of HEARTS" "4 of SPADES" "7 of CLUBS" "ACE of CLUBS" "7 of HEARTS" "7 of SPADES")
+nil
+clj꞉playing-cards.core꞉> 
+((3 of HEARTS KING of DIAMONDS 4 of CLUBS JACK of SPADES 9 of HEARTS 5 of SPADES 2 of SPADES 5 of CLUBS 5 of DIAMONDS ACE of HEARTS)
+(4 of HEARTS 3 of CLUBS 6 of HEARTS 8 of DIAMONDS 6 of SPADES 8 of CLUBS 4 of DIAMONDS 1 of HEARTS 9 of SPADES 1 of DIAMONDS)
+nil (1 of CLUBS 6 of DIAMONDS 8 of HEARTS QUEEN of CLUBS 2 of HEARTS 4 of SPADES 7 of CLUBS ACE of CLUBS 7 of HEARTS 7 of SPADES)
+nil nil)
+nil
+clj꞉playing-cards.core꞉> 
+(3 of HEARTS, KING of DIAMONDS, 4 of CLUBS, JACK of SPADES, 9 of HEARTS, 5 of SPADES, 2 of SPADES, 5 of CLUBS, 5 of DIAMONDS, ACE of HEARTS
+4 of HEARTS, 3 of CLUBS, 6 of HEARTS, 8 of DIAMONDS, 6 of SPADES, 8 of CLUBS, 4 of DIAMONDS, 1 of HEARTS, 9 of SPADES, 1 of DIAMONDS
+nil 1 of CLUBS, 6 of DIAMONDS, 8 of HEARTS, QUEEN of CLUBS, 2 of HEARTS, 4 of SPADES, 7 of CLUBS, ACE of CLUBS, 7 of HEARTS, 7 of SPADES
+nil nil)
+nil
+clj꞉playing-cards.core꞉> 
+3 of HEARTS, KING of DIAMONDS, 4 of CLUBS, JACK of SPADES, 9 of HEARTS, 5 of SPADES, 2 of SPADES, 5 of CLUBS, 5 of DIAMONDS, ACE of HEARTS
+(nil4 of HEARTS, 3 of CLUBS, 6 of HEARTS, 8 of DIAMONDS, 6 of SPADES, 8 of CLUBS, 4 of DIAMONDS, 1 of HEARTS, 9 of SPADES, 1 of DIAMONDS
+
+ nil1 of CLUBS, 6 of DIAMONDS, 8 of HEARTS, QUEEN of CLUBS, 2 of HEARTS, 4 of SPADES, 7 of CLUBS, ACE of CLUBS, 7 of HEARTS, 7 of SPADES
+
+ nil)
+clj꞉playing-cards.core꞉> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3 of HEARTS, KING of DIAMONDS, 4 of CLUBS, JACK of SPADES, 9 of HEARTS, 5 of SPADES, 2 of SPADES, 5 of CLUBS, 5 of DIAMONDS, ACE of HEARTS
+(nil4 of HEARTS, 3 of CLUBS, 6 of HEARTS, 8 of DIAMONDS, 6 of SPADES, 8 of CLUBS, 4 of DIAMONDS, 1 of HEARTS, 9 of SPADES, 1 of DIAMONDS
+
+ nil1 of CLUBS, 6 of DIAMONDS, 8 of HEARTS, QUEEN of CLUBS, 2 of HEARTS, 4 of SPADES, 7 of CLUBS, ACE of CLUBS, 7 of HEARTS, 7 of SPADES
+
+ nil)
+clj꞉playing-cards.core꞉> 
+ACE of HEARTS, 5 of DIAMONDS, 5 of CLUBS, 2 of SPADES, 5 of SPADES, 9 of HEARTS, JACK of SPADES, 4 of CLUBS, KING of DIAMONDS, 3 of HEARTS
+(nil1 of DIAMONDS, 9 of SPADES, 1 of HEARTS, 4 of DIAMONDS, 8 of CLUBS, 6 of SPADES, 8 of DIAMONDS, 6 of HEARTS, 3 of CLUBS, 4 of HEARTS
+
+ nil7 of SPADES, 7 of HEARTS, ACE of CLUBS, 7 of CLUBS, 4 of SPADES, 2 of HEARTS, QUEEN of CLUBS, 8 of HEARTS, 6 of DIAMONDS, 1 of CLUBS
+
+ nil)
+clj꞉playing-cards.core꞉> 
+(["1 CL" "6 DI" "8 HR" "11 CL" "2 HR" "4 SP" "7 CL" "0 CL" "7 HR" "7 SP"]
+ ["4 HR" "3 CL" "6 HR" "8 DI" "6 SP" "8 CL" "4 DI" "1 HR" "9 SP" "1 DI"]
+ ["3 HR" "12 DI" "4 CL" "10 SP" "9 HR" "5 SP" "2 SP" "5 CL" "5 DI" "0 HR"])
+clj꞉playing-cards.core꞉> 
+(((1 :CL) (6 :DI) (8 :HR) (11 :CL) (2 :HR) (4 :SP) (7 :CL) (0 :CL) (7 :HR) (7 :SP))
+ ((4 :HR) (3 :CL) (6 :HR) (8 :DI) (6 :SP) (8 :CL) (4 :DI) (1 :HR) (9 :SP) (1 :DI))
+ ((3 :HR) (12 :DI) (4 :CL) (10 :SP) (9 :HR) (5 :SP) (2 :SP) (5 :CL) (5 :DI) (0 :HR)))
+clj꞉playing-cards.core꞉> 
+(("7 of SPADES"
+  "7 of HEARTS"
+  "ACE of CLUBS"
+  "7 of CLUBS"
+  "4 of SPADES"
+  "2 of HEARTS"
+  "QUEEN of CLUBS"
+  "8 of HEARTS"
+  "6 of DIAMONDS"
+  "1 of CLUBS")
+ ("1 of DIAMONDS"
+  "9 of SPADES"
+  "1 of HEARTS"
+  "4 of DIAMONDS"
+  "8 of CLUBS"
+  "6 of SPADES"
+  "8 of DIAMONDS"
+  "6 of HEARTS"
+  "3 of CLUBS"
+  "4 of HEARTS")
+ ("ACE of HEARTS"
+  "5 of DIAMONDS"
+  "5 of CLUBS"
+  "2 of SPADES"
+  "5 of SPADES"
+  "9 of HEARTS"
+  "JACK of SPADES"
+  "4 of CLUBS"
+  "KING of DIAMONDS"
+  "3 of HEARTS"))
+clj꞉playing-cards.core꞉> 
+#'playing-cards.core/card-name
+clj꞉playing-cards.core꞉> 
+(("7 of SPADES"
+  "7 of HEARTS"
+  "ACE of CLUBS"
+  "7 of CLUBS"
+  "4 of SPADES"
+  "2 of HEARTS"
+  "QUEEN of CLUBS"
+  "8 of HEARTS"
+  "6 of DIAMONDS"
+  "1 of CLUBS")
+ ("1 of DIAMONDS"
+  "9 of SPADES"
+  "1 of HEARTS"
+  "4 of DIAMONDS"
+  "8 of CLUBS"
+  "6 of SPADES"
+  "8 of DIAMONDS"
+  "6 of HEARTS"
+  "3 of CLUBS"
+  "4 of HEARTS")
+ ("ACE of HEARTS"
+  "5 of DIAMONDS"
+  "5 of CLUBS"
+  "2 of SPADES"
+  "5 of SPADES"
+  "9 of HEARTS"
+  "JACK of SPADES"
+  "4 of CLUBS"
+  "KING of DIAMONDS"
+  "3 of HEARTS"))
+clj꞉playing-cards.core꞉> 
+(["1 CL" "6 DI" "8 HR" "11 CL" "2 HR" "4 SP" "7 CL" "0 CL" "7 HR" "7 SP"]
+ ["4 HR" "3 CL" "6 HR" "8 DI" "6 SP" "8 CL" "4 DI" "1 HR" "9 SP" "1 DI"]
+ ["3 HR" "12 DI" "4 CL" "10 SP" "9 HR" "5 SP" "2 SP" "5 CL" "5 DI" "0 HR"])
+clj꞉playing-cards.core꞉> 
+(((1 :CL) (6 :DI) (8 :HR) (11 :CL) (2 :HR) (4 :SP) (7 :CL) (0 :CL) (7 :HR) (7 :SP))
+ ((4 :HR) (3 :CL) (6 :HR) (8 :DI) (6 :SP) (8 :CL) (4 :DI) (1 :HR) (9 :SP) (1 :DI))
+ ((3 :HR) (12 :DI) (4 :CL) (10 :SP) (9 :HR) (5 :SP) (2 :SP) (5 :CL) (5 :DI) (0 :HR)))
+clj꞉playing-cards.core꞉> 
+(((1 :CL) (6 :DI) (8 :HR) (11 :CL) (2 :HR) (4 :SP) (7 :CL) (0 :CL) (7 :HR) (7 :SP))
+ ((4 :HR) (3 :CL) (6 :HR) (8 :DI) (6 :SP) (8 :CL) (4 :DI) (1 :HR) (9 :SP) (1 :DI))
+ ((3 :HR) (12 :DI) (4 :CL) (10 :SP) (9 :HR) (5 :SP) (2 :SP) (5 :CL) (5 :DI) (0 :HR)))
+clj꞉playing-cards.core꞉> 
+ACE of HEARTS, 5 of DIAMONDS, 5 of CLUBS, 2 of SPADES, 5 of SPADES, 9 of HEARTS, JACK of SPADES, 4 of CLUBS, KING of DIAMONDS, 3 of HEARTS
+(nil1 of DIAMONDS, 9 of SPADES, 1 of HEARTS, 4 of DIAMONDS, 8 of CLUBS, 6 of SPADES, 8 of DIAMONDS, 6 of HEARTS, 3 of CLUBS, 4 of HEARTS
+
+ nil7 of SPADES, 7 of HEARTS, ACE of CLUBS, 7 of CLUBS, 4 of SPADES, 2 of HEARTS, QUEEN of CLUBS, 8 of HEARTS, 6 of DIAMONDS, 1 of CLUBS
+
+ nil)
+clj꞉playing-cards.core꞉> 
+("ACE of HEARTS, 5 of DIAMONDS, 5 of CLUBS, 2 of SPADES, 5 of SPADES, 9 of HEARTS, JACK of SPADES, 4 of CLUBS, KING of DIAMONDS, 3 of HEARTS"
+ "1 of DIAMONDS, 9 of SPADES, 1 of HEARTS, 4 of DIAMONDS, 8 of CLUBS, 6 of SPADES, 8 of DIAMONDS, 6 of HEARTS, 3 of CLUBS, 4 of HEARTS"
+ "7 of SPADES, 7 of HEARTS, ACE of CLUBS, 7 of CLUBS, 4 of SPADES, 2 of HEARTS, QUEEN of CLUBS, 8 of HEARTS, 6 of DIAMONDS, 1 of CLUBS")
+clj꞉playing-cards.core꞉> 
+#'playing-cards.core/card-name
+clj꞉playing-cards.core꞉> 
+; Evaluating file: core.clj
+Read from file:
+Selected:
+ACE of SPADES, 8 of SPADES, 8 of HEARTS, 2 of DIAMONDS, 2 of SPADES, ACE of CLUBS, 8 of CLUBS, 5 of SPADES, 3 of HEARTS, 10 of CLUBS
+Rest of deck:
+10 of HEARTS, 3 of CLUBS, KING of DIAMONDS, 4 of HEARTS, 6 of DIAMONDS, 5 of HEARTS, KING of SPADES, 4 of SPADES, ACE of DIAMONDS, 4 of CLUBS, JACK of HEARTS, 2 of CLUBS, 5 of CLUBS, 6 of SPADES, ACE of HEARTS, 9 of SPADES, KING of CLUBS, JACK of DIAMONDS, 9 of CLUBS, 3 of DIAMONDS, 3 of SPADES, 7 of HEARTS, 2 of HEARTS, 6 of HEARTS, JACK of SPADES, QUEEN of CLUBS, JACK of CLUBS, 10 of DIAMONDS, 9 of DIAMONDS, 8 of DIAMONDS, 9 of HEARTS, KING of HEARTS, QUEEN of SPADES, 7 of CLUBS, 6 of CLUBS, 10 of SPADES, QUEEN of HEARTS, 7 of SPADES, QUEEN of DIAMONDS, 4 of DIAMONDS, 5 of DIAMONDS, 7 of DIAMONDS
+((5 :CL) (1 :CL) (8 :CL) (2 :CL) (2 :DI) (10 :CL) (12 :CL) (4 :DI) (5 :SP) (2 :SP))((6 :DI) (5 :DI) (11 :CL) (9 :CL) (4 :SP) (7 :CL) (0 :CL) (11 :HR) (7 :HR) (0 :SP))
+(nil nil nil)
+clj꞉playing-cards.core꞉> 
+("5 of CLUBS, 4 of DIAMONDS, 10 of SPADES, JACK of SPADES, 4 of HEARTS, QUEEN of SPADES, 3 of HEARTS, 4 of SPADES, JACK of DIAMONDS, 7 of SPADES"
+ "3 of SPADES, 6 of SPADES, 5 of DIAMONDS, KING of CLUBS, JACK of CLUBS, 3 of DIAMONDS, 3 of CLUBS, 9 of CLUBS, 2 of CLUBS, 6 of CLUBS"
+ "ACE of SPADES, 8 of HEARTS, QUEEN of HEARTS, ACE of CLUBS, 8 of CLUBS, 5 of SPADES, 10 of CLUBS, QUEEN of CLUBS, 6 of DIAMONDS, 7 of DIAMONDS")
+clj꞉playing-cards.core꞉> 
+(((6 :DI) (5 :DI) (11 :CL) (9 :CL) (4 :SP) (7 :CL) (0 :CL) (11 :HR) (7 :HR) (0 :SP))
+ ((5 :CL) (1 :CL) (8 :CL) (2 :CL) (2 :DI) (10 :CL) (12 :CL) (4 :DI) (5 :SP) (2 :SP))
+ ((6 :SP) (10 :DI) (3 :SP) (2 :HR) (11 :SP) (3 :HR) (10 :SP) (9 :SP) (3 :DI) (4 :CL)))
+clj꞉playing-cards.core꞉> 
+("5 of CLUBS, 4 of DIAMONDS, 10 of SPADES, JACK of SPADES, 4 of HEARTS, QUEEN of SPADES, 3 of HEARTS, 4 of SPADES, JACK of DIAMONDS, 7 of SPADES"
+ "3 of SPADES, 6 of SPADES, 5 of DIAMONDS, KING of CLUBS, JACK of CLUBS, 3 of DIAMONDS, 3 of CLUBS, 9 of CLUBS, 2 of CLUBS, 6 of CLUBS"
+ "ACE of SPADES, 8 of HEARTS, QUEEN of HEARTS, ACE of CLUBS, 8 of CLUBS, 5 of SPADES, 10 of CLUBS, QUEEN of CLUBS, 6 of DIAMONDS, 7 of DIAMONDS")
+clj꞉playing-cards.core꞉> 
+("KING of CLUBS"
+ "QUEEN of CLUBS"
+ "JACK of CLUBS"
+ "10 of CLUBS"
+ "9 of CLUBS"
+ "8 of CLUBS"
+ "7 of CLUBS"
+ "6 of CLUBS"
+ "5 of CLUBS"
+ "4 of CLUBS"
+ "3 of CLUBS"
+ "2 of CLUBS"
+ "ACE of CLUBS"
+ "KING of DIAMONDS"
+ "QUEEN of DIAMONDS"
+ "JACK of DIAMONDS"
+ "10 of DIAMONDS"
+ "9 of DIAMONDS"
+ "8 of DIAMONDS"
+ "7 of DIAMONDS"
+ "6 of DIAMONDS"
+ "5 of DIAMONDS"
+ "4 of DIAMONDS"
+ "3 of DIAMONDS"
+ "2 of DIAMONDS"
+ "ACE of DIAMONDS"
+ "KING of HEARTS"
+ "QUEEN of HEARTS"
+ "JACK of HEARTS"
+ "10 of HEARTS"
+ "9 of HEARTS"
+ "8 of HEARTS"
+ "7 of HEARTS"
+ "6 of HEARTS"
+ "5 of HEARTS"
+ "4 of HEARTS"
+ "3 of HEARTS"
+ "2 of HEARTS"
+ "ACE of HEARTS"
+ "KING of SPADES"
+ "QUEEN of SPADES"
+ "JACK of SPADES"
+ "10 of SPADES"
+ "9 of SPADES"
+ "8 of SPADES"
+ "7 of SPADES"
+ "6 of SPADES"
+ "5 of SPADES"
+ "4 of SPADES"
+ "3 of SPADES"
+ ...)
+clj꞉playing-cards.core꞉> 
+((0 :SP)
+ (1 :SP)
+ (2 :SP)
+ (3 :SP)
+ (4 :SP)
+ (5 :SP)
+ (6 :SP)
+ (7 :SP)
+ (8 :SP)
+ (9 :SP)
+ (10 :SP)
+ (11 :SP)
+ (12 :SP)
+ (0 :HR)
+ (1 :HR)
+ (2 :HR)
+ (3 :HR)
+ (4 :HR)
+ (5 :HR)
+ (6 :HR)
+ (7 :HR)
+ (8 :HR)
+ (9 :HR)
+ (10 :HR)
+ (11 :HR)
+ (12 :HR)
+ (0 :DI)
+ (1 :DI)
+ (2 :DI)
+ (3 :DI)
+ (4 :DI)
+ (5 :DI)
+ (6 :DI)
+ (7 :DI)
+ (8 :DI)
+ (9 :DI)
+ (10 :DI)
+ (11 :DI)
+ (12 :DI)
+ (0 :CL)
+ (1 :CL)
+ (2 :CL)
+ (3 :CL)
+ (4 :CL)
+ (5 :CL)
+ (6 :CL)
+ (7 :CL)
+ (8 :CL)
+ (9 :CL)
+ (10 :CL)
+ ...)
+clj꞉playing-cards.core꞉> 
+("KING of CLUBS"
+ "QUEEN of CLUBS"
+ "JACK of CLUBS"
+ "10 of CLUBS"
+ "9 of CLUBS"
+ "8 of CLUBS"
+ "7 of CLUBS"
+ "6 of CLUBS"
+ "5 of CLUBS"
+ "4 of CLUBS"
+ "3 of CLUBS"
+ "2 of CLUBS"
+ "ACE of CLUBS"
+ "KING of DIAMONDS"
+ "QUEEN of DIAMONDS"
+ "JACK of DIAMONDS"
+ "10 of DIAMONDS"
+ "9 of DIAMONDS"
+ "8 of DIAMONDS"
+ "7 of DIAMONDS"
+ "6 of DIAMONDS"
+ "5 of DIAMONDS"
+ "4 of DIAMONDS"
+ "3 of DIAMONDS"
+ "2 of DIAMONDS"
+ "ACE of DIAMONDS"
+ "KING of HEARTS"
+ "QUEEN of HEARTS"
+ "JACK of HEARTS"
+ "10 of HEARTS"
+ "9 of HEARTS"
+ "8 of HEARTS"
+ "7 of HEARTS"
+ "6 of HEARTS"
+ "5 of HEARTS"
+ "4 of HEARTS"
+ "3 of HEARTS"
+ "2 of HEARTS"
+ "ACE of HEARTS"
+ "KING of SPADES"
+ "QUEEN of SPADES"
+ "JACK of SPADES"
+ "10 of SPADES"
+ "9 of SPADES"
+ "8 of SPADES"
+ "7 of SPADES"
+ "6 of SPADES"
+ "5 of SPADES"
+ "4 of SPADES"
+ "3 of SPADES"
+ ...)
+clj꞉playing-cards.core꞉> 
+("KING of CLUBS"
+ "QUEEN of CLUBS"
+ "JACK of CLUBS"
+ "10 of CLUBS"
+ "9 of CLUBS"
+ "8 of CLUBS"
+ "7 of CLUBS"
+ "6 of CLUBS"
+ "5 of CLUBS"
+ "4 of CLUBS"
+ "3 of CLUBS"
+ "2 of CLUBS"
+ "ACE of CLUBS"
+ "KING of DIAMONDS"
+ "QUEEN of DIAMONDS"
+ "JACK of DIAMONDS"
+ "10 of DIAMONDS"
+ "9 of DIAMONDS"
+ "8 of DIAMONDS"
+ "7 of DIAMONDS"
+ "6 of DIAMONDS"
+ "5 of DIAMONDS"
+ "4 of DIAMONDS"
+ "3 of DIAMONDS"
+ "2 of DIAMONDS"
+ "ACE of DIAMONDS"
+ "KING of HEARTS"
+ "QUEEN of HEARTS"
+ "JACK of HEARTS"
+ "10 of HEARTS"
+ "9 of HEARTS"
+ "8 of HEARTS"
+ "7 of HEARTS"
+ "6 of HEARTS"
+ "5 of HEARTS"
+ "4 of HEARTS"
+ "3 of HEARTS"
+ "2 of HEARTS"
+ "ACE of HEARTS"
+ "KING of SPADES"
+ "QUEEN of SPADES"
+ "JACK of SPADES"
+ "10 of SPADES"
+ "9 of SPADES"
+ "8 of SPADES"
+ "7 of SPADES"
+ "6 of SPADES"
+ "5 of SPADES"
+ "4 of SPADES"
+ "3 of SPADES"
+ ...)
+clj꞉playing-cards.core꞉> 
+("ACE of SPADES"
+ "2 of SPADES"
+ "3 of SPADES"
+ "4 of SPADES"
+ "5 of SPADES"
+ "6 of SPADES"
+ "7 of SPADES"
+ "8 of SPADES"
+ "9 of SPADES"
+ "10 of SPADES"
+ "JACK of SPADES"
+ "QUEEN of SPADES"
+ "KING of SPADES"
+ "ACE of HEARTS"
+ "2 of HEARTS"
+ "3 of HEARTS"
+ "4 of HEARTS"
+ "5 of HEARTS"
+ "6 of HEARTS"
+ "7 of HEARTS"
+ "8 of HEARTS"
+ "9 of HEARTS"
+ "10 of HEARTS"
+ "JACK of HEARTS"
+ "QUEEN of HEARTS"
+ "KING of HEARTS"
+ "ACE of DIAMONDS"
+ "2 of DIAMONDS"
+ "3 of DIAMONDS"
+ "4 of DIAMONDS"
+ "5 of DIAMONDS"
+ "6 of DIAMONDS"
+ "7 of DIAMONDS"
+ "8 of DIAMONDS"
+ "9 of DIAMONDS"
+ "10 of DIAMONDS"
+ "JACK of DIAMONDS"
+ "QUEEN of DIAMONDS"
+ "KING of DIAMONDS"
+ "ACE of CLUBS"
+ "2 of CLUBS"
+ "3 of CLUBS"
+ "4 of CLUBS"
+ "5 of CLUBS"
+ "6 of CLUBS"
+ "7 of CLUBS"
+ "8 of CLUBS"
+ "9 of CLUBS"
+ "10 of CLUBS"
+ "JACK of CLUBS"
+ ...)
+clj꞉playing-cards.core꞉> 
+("KING of CLUBS"
+ "QUEEN of CLUBS"
+ "JACK of CLUBS"
+ "10 of CLUBS"
+ "9 of CLUBS"
+ "8 of CLUBS"
+ "7 of CLUBS"
+ "6 of CLUBS"
+ "5 of CLUBS"
+ "4 of CLUBS"
+ "3 of CLUBS"
+ "2 of CLUBS"
+ "ACE of CLUBS"
+ "KING of DIAMONDS"
+ "QUEEN of DIAMONDS"
+ "JACK of DIAMONDS"
+ "10 of DIAMONDS"
+ "9 of DIAMONDS"
+ "8 of DIAMONDS"
+ "7 of DIAMONDS"
+ "6 of DIAMONDS"
+ "5 of DIAMONDS"
+ "4 of DIAMONDS"
+ "3 of DIAMONDS"
+ "2 of DIAMONDS"
+ "ACE of DIAMONDS"
+ "KING of HEARTS"
+ "QUEEN of HEARTS"
+ "JACK of HEARTS"
+ "10 of HEARTS"
+ "9 of HEARTS"
+ "8 of HEARTS"
+ "7 of HEARTS"
+ "6 of HEARTS"
+ "5 of HEARTS"
+ "4 of HEARTS"
+ "3 of HEARTS"
+ "2 of HEARTS"
+ "ACE of HEARTS"
+ "KING of SPADES"
+ "QUEEN of SPADES"
+ "JACK of SPADES"
+ "10 of SPADES"
+ "9 of SPADES"
+ "8 of SPADES"
+ "7 of SPADES"
+ "6 of SPADES"
+ "5 of SPADES"
+ "4 of SPADES"
+ "3 of SPADES"
+ ...)
+clj꞉playing-cards.core꞉> 
+["ACE of SPADES"
+ "2 of SPADES"
+ "3 of SPADES"
+ "4 of SPADES"
+ "5 of SPADES"
+ "6 of SPADES"
+ "7 of SPADES"
+ "8 of SPADES"
+ "9 of SPADES"
+ "10 of SPADES"
+ "JACK of SPADES"
+ "QUEEN of SPADES"
+ "KING of SPADES"
+ "ACE of HEARTS"
+ "2 of HEARTS"
+ "3 of HEARTS"
+ "4 of HEARTS"
+ "5 of HEARTS"
+ "6 of HEARTS"
+ "7 of HEARTS"
+ "8 of HEARTS"
+ "9 of HEARTS"
+ "10 of HEARTS"
+ "JACK of HEARTS"
+ "QUEEN of HEARTS"
+ "KING of HEARTS"
+ "ACE of DIAMONDS"
+ "2 of DIAMONDS"
+ "3 of DIAMONDS"
+ "4 of DIAMONDS"
+ "5 of DIAMONDS"
+ "6 of DIAMONDS"
+ "7 of DIAMONDS"
+ "8 of DIAMONDS"
+ "9 of DIAMONDS"
+ "10 of DIAMONDS"
+ "JACK of DIAMONDS"
+ "QUEEN of DIAMONDS"
+ "KING of DIAMONDS"
+ "ACE of CLUBS"
+ "2 of CLUBS"
+ "3 of CLUBS"
+ "4 of CLUBS"
+ "5 of CLUBS"
+ "6 of CLUBS"
+ "7 of CLUBS"
+ "8 of CLUBS"
+ "9 of CLUBS"
+ "10 of CLUBS"
+ "JACK of CLUBS"
+ ...]
+clj꞉playing-cards.core꞉> 
+#'playing-cards.core/show-deck
+clj꞉playing-cards.core꞉> 
+("7 of SPADES, JACK of DIAMONDS, 4 of SPADES, 3 of HEARTS, QUEEN of SPADES, 4 of HEARTS, JACK of SPADES, 10 of SPADES, 4 of DIAMONDS, 5 of CLUBS"
+ "6 of CLUBS, 2 of CLUBS, 9 of CLUBS, 3 of CLUBS, 3 of DIAMONDS, JACK of CLUBS, KING of CLUBS, 5 of DIAMONDS, 6 of SPADES, 3 of SPADES"
+ "7 of DIAMONDS, 6 of DIAMONDS, QUEEN of CLUBS, 10 of CLUBS, 5 of SPADES, 8 of CLUBS, ACE of CLUBS, QUEEN of HEARTS, 8 of HEARTS, ACE of SPADES")
+clj꞉playing-cards.core꞉> 
+("7 of DIAMONDS, 6 of DIAMONDS, QUEEN of CLUBS, 10 of CLUBS, 5 of SPADES, 8 of CLUBS, ACE of CLUBS, QUEEN of HEARTS, 8 of HEARTS, ACE of SPADES"
+ "6 of CLUBS, 2 of CLUBS, 9 of CLUBS, 3 of CLUBS, 3 of DIAMONDS, JACK of CLUBS, KING of CLUBS, 5 of DIAMONDS, 6 of SPADES, 3 of SPADES"
+ "7 of SPADES, JACK of DIAMONDS, 4 of SPADES, 3 of HEARTS, QUEEN of SPADES, 4 of HEARTS, JACK of SPADES, 10 of SPADES, 4 of DIAMONDS, 5 of CLUBS")
+clj꞉playing-cards.core꞉> 
+(((6 :DI) (5 :DI) (11 :CL) (9 :CL) (4 :SP) (7 :CL) (0 :CL) (11 :HR) (7 :HR) (0 :SP))
+ ((5 :CL) (1 :CL) (8 :CL) (2 :CL) (2 :DI) (10 :CL) (12 :CL) (4 :DI) (5 :SP) (2 :SP))
+ ((6 :SP) (10 :DI) (3 :SP) (2 :HR) (11 :SP) (3 :HR) (10 :SP) (9 :SP) (3 :DI) (4 :CL)))
+clj꞉playing-cards.core꞉> 
+(((6 :DI) (5 :DI) (11 :CL) (9 :CL) (4 :SP) (7 :CL) (0 :CL) (11 :HR) (7 :HR) (0 :SP))
+ ((5 :CL) (1 :CL) (8 :CL) (2 :CL) (2 :DI) (10 :CL) (12 :CL) (4 :DI) (5 :SP) (2 :SP))
+ ((6 :SP) (10 :DI) (3 :SP) (2 :HR) (11 :SP) (3 :HR) (10 :SP) (9 :SP) (3 :DI) (4 :CL)))
+clj꞉playing-cards.core꞉> 
+("7 of DIAMONDS, 6 of DIAMONDS, QUEEN of CLUBS, 10 of CLUBS, 5 of SPADES, 8 of CLUBS, ACE of CLUBS, QUEEN of HEARTS, 8 of HEARTS, ACE of SPADES"
+ "6 of CLUBS, 2 of CLUBS, 9 of CLUBS, 3 of CLUBS, 3 of DIAMONDS, JACK of CLUBS, KING of CLUBS, 5 of DIAMONDS, 6 of SPADES, 3 of SPADES"
+ "7 of SPADES, JACK of DIAMONDS, 4 of SPADES, 3 of HEARTS, QUEEN of SPADES, 4 of HEARTS, JACK of SPADES, 10 of SPADES, 4 of DIAMONDS, 5 of CLUBS")
+clj꞉playing-cards.core꞉> 
